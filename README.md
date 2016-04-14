@@ -1,7 +1,7 @@
 # ToDoList API
 
 ## Installation
-	1.you need to installaion MYSQL
+	1.you need to installaion MySQL
 	2.Change the db.go file database name also
 
 ## Import packages
