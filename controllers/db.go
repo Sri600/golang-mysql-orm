@@ -18,7 +18,7 @@ type DBController struct {
 func (dc *DBController) InitDB() {
 	var err error
 
-	dc.DB, err = gorm.Open("mysql","root:12345@/todolist?charset=utf8&parseTime=True")
+  dc.DB, err = gorm.Open("mysql","username:password@/todolist?charset=utf8&parseTime=True")
 	if err != nil {
 		log.Fatalf("Error when connect database, the error is '%v'", err)
 	}
